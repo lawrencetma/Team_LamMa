@@ -1,0 +1,20 @@
+<%= render partial: "new_message" %>
+<section class="regular overflow-hidden">
+  <h1 class="cursive">Messages for Helen & Lawrence</h1>
+
+  <a href="#" data-toggle="modal" data-target="#new_message">Write us a Message!</a>
+  <p>
+    <% if @messages %>
+      <% @messages.each do |message| %>
+        <div class="messages">
+          <p>
+            <%= message.text %>
+          </p>
+          <p>
+            - <%= message.from %>
+          </p>
+        </div>
+      <% end %>
+    <% end %>
+  </p>
+</section>

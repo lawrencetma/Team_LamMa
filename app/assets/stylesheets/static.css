@@ -1,0 +1,20 @@
+section {
+  background-color: rgba(255,255,255,0.9);
+  width: 550px;
+  max-width: 90%;
+  margin-top: 100px;
+  margin-left: 5%;
+  padding: 25px;
+  box-shadow: 5px 5px 5px #4d4d4d;
+}
+
+.messages {
+  width: 100%;
+  margin: 7px;
+  padding: 3%;
+  /*border-top: solid thin black;*/
+}
+
+.overflow-hidden {
+  overflow: scroll;
+}
