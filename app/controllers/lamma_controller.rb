@@ -27,6 +27,9 @@ class LammaController < ApplicationController
   def contact
   end
 
+  def registry
+  end
+
   def email
   end
 

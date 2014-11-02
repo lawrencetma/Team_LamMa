@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get '/weddinginformation' => 'lamma#weddinginformation'
   get '/weddingparty' => 'lamma#weddingparty'
   get '/messagewall' => 'lamma#messagewall'
+  get '/registry' => 'lamma#registry'
 
   resources :message, :except => [:create]
   post '/message' => 'message#create', as: 'messages'
