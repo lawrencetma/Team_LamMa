@@ -1,31 +1,21 @@
-function calcParallax(tileheight, speedratio, scrollposition) {
-  //    by Brett Taylor http://inner.geek.nz/
-  //    originally published at http://inner.geek.nz/javascript/parallax/
-  //    usable under terms of CC-BY 3.0 licence
-  //    http://creativecommons.org/licenses/by/3.0/
-  return ((tileheight) - (Math.floor(scrollposition / speedratio) % (tileheight+1)));
-}
+$( document ).ready(function(){
 
-window.onload = function() {
+  (function(){
 
-  window.onscroll = function() {
-    var posX = (document.documentElement.scrollLeft) ? document.documentElement.scrollLeft : window.pageXOffset;
-    var posY = (document.documentElement.scrollTop) ? document.documentElement.scrollTop : window.pageYOffset;
+    var parallax = document.querySelectorAll(".ground"),
+        speed = -0.5;
 
-    var ground = document.getElementById('ground');
-    var groundparallax = calcParallax(53, 12, posY);
-    ground.style.backgroundPosition = "0 " + groundparallax + "px";
+    window.onscroll = function(){
+      [].slice.call(parallax).forEach(function(el,i){
 
-    var clouds = document.getElementById('front');
-    var cloudsparallax = calcParallax(400, .5, posY);
-    clouds.style.backgroundPosition = "0 " + cloudsparallax + "px";
-  }
+        var windowYOffset = window.pageYOffset,
+            elBackgrounPos = "0% " + (windowYOffset * speed) + "px";
 
-  document.getElementById('text').onscroll = function() {
-    var posX = (this.scrollLeft) ? this.scrollLeft : this.pageXOffset;
-    var j = calcParallax(53, 16, posX);
-    console.log('scroll js: '+ j);
-    document.getElementById('text').style.backgroundPosition = j + "px 0";
-  }
+        el.style.backgroundPosition = elBackgrounPos;
 
-}
+      });
+    };
+
+  })();
+
+});

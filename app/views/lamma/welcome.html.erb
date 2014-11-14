@@ -1,33 +1,53 @@
 
 <div class="intro-section cursive intro" id="text">
   <p>Helen & Lawrence</p>
-  <p class="dotted large">10-10-15 <%= image_tag 'HLlogo.png', {class: "logo-picture"}%></p>
+  <p class="dotted large">10-10-15</p>
 </div>
 
 <div class="welcome-bottom regular" id="front">
-  <div class="polaroids fl-lf rotate-right">
-    <%= image_tag "disneyland.jpg", {class: "polaroid-picture"} %>
-    Happiest Place on Earth...
+  <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+    <div class="flipper">
+      <div class="front">
+        <!-- front content -->
+        <div class="polaroids fl-lf rotate-right">
+          <%= image_tag "disneyland.jpg", {class: "polaroid-picture"} %>
+          Happiest Place on Earth...
+        </div>
+      </div>
+      <div class="back">
+        <!-- back content -->
+        <div class="polaroids fl-lf rotate-left">
+          <%= image_tag "hawaii.jpg", {class: "polaroid-picture"} %>
+          Aloha!
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="polaroids fl-lf">
-    <%= image_tag "hawaii.jpg", {class: "polaroid-picture"} %>
-    Aloha!
+  <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper">
+    <div class="front">
+      <!-- front content -->
+      <div class="polaroids fl-lf rotate-left">
+        <%= image_tag "christmas.jpg", {class: "polaroid-picture"} %>
+        Christmas with Penny
+      </div>
+    </div>
+    <div class="back">
+      <!-- back content -->
+      <div class="polaroids fl-lf rotate-right">
+        <%= image_tag "giants_game.jpg", {class: "polaroid-picture"} %>
+        Go Giants!
+      </div>
+    </div>
   </div>
-  <div class="polaroids fl-lf rotate-left">
-    <%= image_tag "christmas.jpg", {class: "polaroid-picture"} %>
-    Christmas with Penny
-  </div>
-  <div class="polaroids fl-lf rotate-right">
-    <%= image_tag "giants_game.jpg", {class: "polaroid-picture"} %>
-    Go Giants!
-  </div>
+</div>
   <div class="welcome-message">
     <h1 class="cursive">Welcome!</h1>
     <p class="medium">
       Whether we see you on our special day or not, we want to extend a heartfelt thank you to all of you, our friends and family, for supporting us and loving us unconditionally.  We know that none of this is possible without you and we hope to see you all very soon!
     </p>
     <p class="cursive large">
-      - Lawrence $ Helen
+      - Lawrence & Helen
     </p>
   </div>
 </div>
