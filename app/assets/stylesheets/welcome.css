@@ -1,3 +1,11 @@
+body {
+  background-image: url('spectacular-sunrise-hd-wallpaper-334329.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
 .logo {
   font-family: 'Great Vibes', cursive;
   font-size: 2em;
@@ -91,15 +99,6 @@
   width: 70%;
   margin-top: 30%;
   margin-left: 15%;
-}
-
-body {
-  background-image: url('spectacular-sunrise-hd-wallpaper-334329.jpg');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  height: 900px;
 }
 
 .welcome-bottom span {

@@ -1,4 +1,4 @@
-$( document ).ready(function(){
+window.onload = function(){
 
   (function(){
 
@@ -18,4 +18,4 @@ $( document ).ready(function(){
 
   })();
 
-});
+};

@@ -2,11 +2,11 @@
 <section class="regular overflow-hidden">
   <h1 class="cursive">Messages for Helen & Lawrence</h1>
 
-  <a href="#" data-toggle="modal" data-target="#new_message">Write us a Message!</a>
-  <p>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#" data-toggle="modal" data-target="#new_message">Write us a Message!</a>
+  <div class="list-group">
     <% if @messages %>
       <% @messages.each do |message| %>
-        <div class="messages">
+        <div class="messages list-group-item">
           <p>
             <%= message.text %>
           </p>
@@ -16,5 +16,5 @@
         </div>
       <% end %>
     <% end %>
-  </p>
+  </div>
 </section>

@@ -3,14 +3,13 @@ section {
   width: 550px;
   max-width: 90%;
   margin-top: 100px;
-  margin-left: 5%;
-  padding: 25px;
+  padding: 10px;
   box-shadow: 5px 5px 5px #4d4d4d;
 }
 
 .messages {
   width: 100%;
-  margin: 7px;
+  margin-top: 5px;
   padding: 3%;
   /*border-top: solid thin black;*/
 }
