@@ -18,6 +18,9 @@ class LammaController < ApplicationController
   def weddingparty
   end
 
+  def accomodations
+  end
+
   def messagewall
     @message = Message.new
     list = Message.all

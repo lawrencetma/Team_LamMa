@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get '/thecouple' => 'lamma#thecouple'
   get '/weddinginformation' => 'lamma#weddinginformation'
   get '/weddingparty' => 'lamma#weddingparty'
+  get '/accomodations' => 'lamma#accomodations'
   get '/messagewall' => 'lamma#messagewall'
   get '/registry' => 'lamma#registry'
 
