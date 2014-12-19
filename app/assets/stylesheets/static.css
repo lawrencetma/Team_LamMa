@@ -1,9 +1,9 @@
 section {
   background-color: rgba(255,255,255,0.9);
-  width: 550px;
+  width: 850px;
   max-width: 90%;
   margin-top: 100px;
-  padding: 10px;
+  padding: 40px;
   box-shadow: 5px 5px 5px #4d4d4d;
 }
 
@@ -16,4 +16,13 @@ section {
 
 .overflow-hidden {
   overflow: scroll;
+}
+
+.party-sections {
+  width: 100%;
+  display: inline-block;
+}
+
+.party-text {
+  max-width: 450px;
 }
