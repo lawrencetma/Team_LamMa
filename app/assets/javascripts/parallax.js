@@ -1,4 +1,5 @@
-window.onload = function(){
+var ready;
+ready = function(){
 
   (function(){
 
@@ -17,5 +18,7 @@ window.onload = function(){
     };
 
   })();
-
 };
+
+$(document).ready(ready);
+$(document).on('page:load', ready);
