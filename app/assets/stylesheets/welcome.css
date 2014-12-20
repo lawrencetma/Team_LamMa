@@ -59,6 +59,10 @@ body {
   font-size: 1.25em;
 }
 
+.medium-large {
+  font-size: 1.5em;
+}
+
 .intro {
   color: white;
   font-size: 7em;
