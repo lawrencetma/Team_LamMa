@@ -5,6 +5,7 @@ section {
   margin-top: 100px;
   padding: 40px;
   box-shadow: 5px 5px 5px #4d4d4d;
+  margin-left: 15%;
 }
 
 .messages {
@@ -25,4 +26,39 @@ section {
 
 .party-text {
   max-width: 450px;
+}
+
+.modal-content {
+  width: 300px;
+}
+/*Tablet*/
+@media (max-width: 1025px) {
+  section {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 100%;
+    padding: 5%;
+  }
+}
+/*Mobile*/
+@media (max-width: 480px) {
+    section {
+      margin-left: 0;
+      width: 100%;
+      max-width: 100%;
+      padding: 5%;
+    }
+    .welcome-bottom {
+      margin-top: 600px;
+      font-size: 0.8em;
+    }
+    .large {
+      font-size: 1.1em;
+    }
+    #footer {
+      margin-left: 5%
+    }
+    .hotelpics {
+      max-width: 100%;
+    }
 }
