@@ -3,24 +3,24 @@
             $(window).scroll(function () {
                   var height = $('body').height();
                   var scrollTop = $('body').scrollTop();
-                  var opacity = 1;
-                  opacity = 1 - (scrollTop/600)
+                  var opacity = 0;
+                  opacity = (scrollTop/800)
                   $('.intro-section').css('opacity', opacity);
             });
       } else if(screen.width > 480) {
             $(window).scroll(function () {
                   var height = $('body').height();
                   var scrollTop = $('body').scrollTop();
-                  var opacity = 1;
-                  opacity = 1 - (scrollTop/200)
+                  var opacity = 0;
+                  opacity = (scrollTop/400)
                   $('.intro-section').css('opacity', opacity);
             });
       } else {
             $(window).scroll(function () {
                   var height = $('body').height();
                   var scrollTop = $('body').scrollTop();
-                  var opacity = 1;
-                  opacity = 1 - (scrollTop/100)
+                  var opacity = 0;
+                  opacity = (scrollTop/200)
                   $('.intro-section').css('opacity', opacity);
             });
       }
