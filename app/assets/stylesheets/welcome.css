@@ -158,7 +158,7 @@ body {
   }
   .ground {
     margin-top: -20%;
-    /*background-image: url('background-mobile.jpg');*/
+    background-image: url('mobile-bkgrd.jpg');
     background-position: 45% 0px;
   }
   .intro-section {
