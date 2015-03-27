@@ -1,6 +1,6 @@
 var ready;
 ready = function(){
-  var position = parseInt($('.intro-section').css('padding'))
+
   (function(){
 
     var parallax = document.querySelectorAll(".ground"),
@@ -10,7 +10,7 @@ ready = function(){
       [].slice.call(parallax).forEach(function(el,i){
 
         var windowYOffset = window.pageYOffset,
-            elBackgrounPos = position + "% " + (windowYOffset * speed) + "px";
+            elBackgrounPos = "0% " + (windowYOffset * speed) + "px";
 
         el.style.backgroundPosition = elBackgrounPos;
 
