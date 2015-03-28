@@ -12,7 +12,7 @@
                   var height = $('body').height();
                   var scrollTop = $('body').scrollTop();
                   var opacity = 0;
-                  opacity = (scrollTop/400)
+                  opacity = (scrollTop/600)
                   $('.intro-section').css('opacity', opacity);
             });
       } else {
@@ -20,7 +20,7 @@
                   var height = $('body').height();
                   var scrollTop = $('body').scrollTop();
                   var opacity = 0;
-                  opacity = (scrollTop/200)
+                  opacity = (scrollTop/400)
                   $('.intro-section').css('opacity', opacity);
             });
       }
