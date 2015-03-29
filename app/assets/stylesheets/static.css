@@ -28,6 +28,10 @@ section {
   max-width: 450px;
 }
 
+.ft-none {
+  float: none;
+}
+
 .modal-content {
   width: 300px;
 }
