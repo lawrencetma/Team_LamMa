@@ -1,32 +1,58 @@
 <section class="regular medium">
   <h1 class="cursive">The Bride</h1>
-    <div class="polaroids rotate-right">
-      <%= image_tag "helen.jpg", {class: "polaroid-picture"} %>
-      The Bride
-    </div><br><br>
-  <p>
-    I was born and raised in Southern California in a city called Alhambra, otherwise known as the 626.  I went to the Univeristy of California, Irvine for my undergraduate degree in Chemistry while pursuing a career in veterinary medicine.  After college, I moved to the bay area (with my Kitty Rosie) for a change of scene and shortly after I decided to make a career change to the pharmaceuticas industry.  I had been working at a pharmaceuticals company in South San Francisco when I met Lawrence....
+  <div class="party-sections">
+    <div class="flip-container">
+      <div class="polaroids rotate-right fl-lf">
+        <%= image_tag "helen.jpg", {class: "polaroid-picture"} %>
+        The Bride
+      </div>
+    </div>
+    <div class="party-text fl-lf">
+      <p>
+        I was born and raised in Southern California in a city called Alhambra, otherwise known as the 626.  I went to the Univeristy of California, Irvine for my undergraduate degree in Chemistry while pursuing a career in veterinary medicine.  After college, I moved to the bay area (with my Kitty Rosie) for a change of scene and shortly after I decided to make a career change to the pharmaceuticas industry.  I had been working at a pharmaceuticals company in South San Francisco when I met Lawrence....
 
-  </p>
+      </p>
+    </div>
+  </div>
   <h1 class="cursive">The Groom</h1>
-    <div class="polaroids rotate-left">
-      <%= image_tag "lawrence.jpg", {class: "polaroid-picture"} %>
-      The Groom
-    </div><br><br>
-  <p>
-    I was a budding young attorney who had been working for only a year when I met Helen.&nbsp;&nbsp;Since then my life has changed so much and thankfully for the better.
-  </p>
-  <p>
-    Before meeting Helen I grew up in Millbrae, CA where I met some of my best friends, most of whom will be standing next to me at the wedding as my groomsmen.  I went to University of Arizona for college and to Sacramento for law school at the University of the Pacific.
-  </p>
-  <p>
-    I'm so thankful to be making this journey with Helen and can't wait for more exciting adventures to come.
-  </p>
+  <div class="party-sections">
+    <div class="party-text fl-lf">
+      <p>
+        I was a budding young attorney who had been working for only a year when I met Helen.&nbsp;&nbsp;Since then my life has changed so much and thankfully for the better.
+      </p>
+      <p>
+        Before meeting Helen I grew up in Millbrae, CA where I met some of my best friends, most of whom will be standing next to me at the wedding as my groomsmen.  I went to University of Arizona for college and to Sacramento for law school at the University of the Pacific.
+      </p>
+      <p>
+        I'm so thankful to be making this journey with Helen and can't wait for more exciting adventures to come.
+      </p>
+    </div>
+    <div class="flip-container">
+      <div class="polaroids rotate-left fl-lf">
+        <%= image_tag "lawrence.jpg", {class: "polaroid-picture"} %>
+        The Groom
+      </div>
+    </div>
+  </div>
   <h1 class="cursive">Together</h1>
-    <div class="polaroids rotate-right">
-      <%= image_tag "us.jpg", {class: "polaroid-picture"} %>
-      The Couple
-    </div><br><br>
+  <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+    <div class="flipper">
+      <div class="front">
+        <!-- front content -->
+        <div class="polaroids rotate-right">
+          <%= image_tag "us.jpg", {class: "polaroid-picture"} %>
+          Together
+        </div>
+      </div>
+      <div class="back">
+        <!-- back content -->
+        <div class="polaroids rotate-left">
+          <%= image_tag "back.jpg", {class: "polaroid-picture"} %>
+          Forever
+        </div>
+      </div>
+    </div>
+  </div>
   <p>
     Helen and Lawrence met in June 2010 as each other's first eHarmony dates.  Lawrence assured Helen that they could just go out for coffee, but left it open for more.  That first date consisted of coffee, burritos, Toy Story 3, boba and eggettes.  Possibly a precursor to what they like to do most often? (Watch Movies and Eat!)
   </p>
