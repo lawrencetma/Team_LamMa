@@ -7,6 +7,7 @@ Rails.application.routes.draw do
 
   get '/welcome' => 'lamma#welcome'
   get '/thecouple' => 'lamma#thecouple'
+  get '/theproposal' => 'lamma#theproposal'
   get '/weddinginformation' => 'lamma#weddinginformation'
   get '/weddingparty' => 'lamma#weddingparty'
   get '/accomodations' => 'lamma#accomodations'

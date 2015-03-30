@@ -6,6 +6,9 @@ class LammaController < ApplicationController
   def thecouple
   end
 
+  def theproposal
+  end
+
   def helen
   end
 
