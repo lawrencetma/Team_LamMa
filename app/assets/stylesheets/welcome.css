@@ -98,6 +98,10 @@ body {
   display: inline-block;
 }
 
+.welcome-photos {
+  width: 25%;
+}
+
 .polaroids {
   width: 200px;
   height: 250px;
@@ -171,6 +175,9 @@ body {
   .welcome-bottom {
     margin-top: 0px;
     font-size: 0.8em;
+  }
+  .welcome-photos {
+    width: 80%;
   }
 }
 /*Mobile*/
