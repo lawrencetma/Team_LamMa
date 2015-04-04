@@ -6,10 +6,10 @@ scrollClick = function() {
           event.preventDefault();
           $('html, body').animate({
               scrollTop: target.offset().top
-          }, 1500);
+          }, 2000);
       }
   });
-};
+}
 
 $(document).ready(scrollClick);
 $(document).on('page:load', scrollClick);
