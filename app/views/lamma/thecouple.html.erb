@@ -1,7 +1,11 @@
+<script>
+ new WOW().init();
+</script>
+
 <section class="regular medium">
   <h1 class="cursive">The Bride</h1>
   <div class="party-sections">
-    <div class="flip-container">
+    <div class="flip-container wow fadeInLeft">
       <div class="polaroids rotate-right fl-lf">
         <%= image_tag "helen.jpg", {class: "polaroid-picture"} %>
         The Bride
@@ -27,7 +31,7 @@
         I'm so thankful to be making this journey with Helen and can't wait for more exciting adventures to come.
       </p>
     </div>
-    <div class="flip-container">
+    <div class="flip-container wow fadeInRight">
       <div class="polaroids rotate-left fl-lf">
         <%= image_tag "lawrence.jpg", {class: "polaroid-picture"} %>
         The Groom
@@ -53,7 +57,7 @@
     </p>
   </div><br>
   <div class="ft-none">
-    <div class="flip-container ft-none" ontouchstart="this.classList.toggle('hover');">
+    <div class="flip-container ft-none wow fadeInDown" ontouchstart="this.classList.toggle('hover');">
       <div class="flipper">
         <div class="front">
           <!-- front content -->
