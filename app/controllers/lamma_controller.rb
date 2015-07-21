@@ -36,6 +36,9 @@ class LammaController < ApplicationController
   def registry
   end
 
+  def rsvp
+  end
+
   def email
   end
 
