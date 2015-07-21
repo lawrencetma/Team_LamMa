@@ -1,0 +1,17 @@
+<section class="regular medium">
+  <h1 class="cursive">Responses</h1>
+  <div class="list-group">
+    <% if @responses %>
+      <% @responses.each do |response| %>
+        <div class="messages list-group-item">
+          <p>
+            <%= response.first %> <%= response.last %>
+          </p>
+          <p>
+            <%= response.meal %>
+          </p>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
+</section>

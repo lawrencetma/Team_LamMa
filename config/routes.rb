@@ -13,9 +13,11 @@ Rails.application.routes.draw do
   get '/accomodations' => 'lamma#accomodations'
   get '/messagewall' => 'lamma#messagewall'
   get '/registry' => 'lamma#registry'
+  get '/rsvp' => 'lamma#rsvp'
 
   resources :message, :except => [:create]
   post '/message' => 'message#create', as: 'messages'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
